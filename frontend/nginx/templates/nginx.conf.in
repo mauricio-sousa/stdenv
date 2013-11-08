@@ -63,7 +63,7 @@ http {
 		server_name_in_redirect  off;
 
 		location / {
-
+			root  ${buildout:directory}/templates/html;
 		}
 
 		location /haproxy-status {
