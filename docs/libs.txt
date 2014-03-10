@@ -45,5 +45,6 @@ libedit-dev
 tcl8.5-dev
 tk8.5-dev
 cloog-ppl
+libpq-dev
 
 #for i in $(cat libs.txt);do sudo apt-get install -y $i; done
