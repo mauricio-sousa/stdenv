@@ -31,7 +31,7 @@ defaults
   stats uri /haproxy-status
   stats refresh 5s
   stats realm Haproxy\ statistics
-  stats auth admin:vindula
+  stats auth admin:admin
 
 frontend Producao
   bind ${haproxy-conf:bind_producao}
